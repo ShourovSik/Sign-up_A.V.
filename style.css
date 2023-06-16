@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    
+}
+
+.inner-box{
+    width: 400px;
+    height: 410px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    position: relative;
+    top: 10%;
+    backdrop-filter: blur(6px);
+    background-color: #ffffff09;
+    /* background: rgb(181,174,238); */
+    /* background: radial-gradient(circle, rgba(181,174,238,1) 24%, rgba(148,187,233,1) 40%); */
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; ;
+    z-index: 2;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: rgba(6, 102, 128, 0.806);
+
+}
+header p{
+    font-size:.7rem;
+    color: rgb(90, 90, 88);
+}
+
+.signup-body p{
+    margin: 10px 0px;
+}
+
+.signup-body p input{
+    width: 100%;
+    padding: 5px; 
+    border: 2px solid antiquewhite;
+}
+
+.signup-body p label{
+    font-size: bold;
+}
+
+.signup-body p .account{
+    color: rgb(228, 224, 226);
+    background-color: rgb(52, 98, 249);
+    transition: 1s;
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; ; */
+    /* cursor: pointer; */
+}
+
+.signup-body p .account:hover{
+    background-color: rgb(134, 179, 179);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; ;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    color: bisque;
+}
+
+footer .ftr{
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.circle{
+    width: 155px;
+    height: 155px;
+    border-radius: 77.5px;
+    background: linear-gradient(to top right, #ffffff33, #ffffffff);
+    position: absolute;
+}
+
+.c1{
+    top: 15px;
+    left: 40px;
+}
+
+.c2{
+    bottom: 15px;
+    right: 50px;
+}
